@@ -1,0 +1,40 @@
+/* Root CSS Variables */
+:root {
+  --primary-color: #e2542c; /* Green */
+  --secondary-color: #00796b; /* Dark Teal */
+  --background-color: #f9fbe7; /* Light Yellow */
+  --text-color: #333333; /* Dark Gray */
+  --text-secondary-color: #607d8b; /* Medium Gray */
+  --border-color: #dddddd; /* Light Gray */
+  --hover-color: #388e3c; /* Hover Green */
+  --font-family: "Arial, sans-serif";
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-family);
+  cursor: pointer;
+}
+
+.container {
+  padding: 15px;
+}

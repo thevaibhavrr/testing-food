@@ -1,0 +1,50 @@
+{
+    "food": [
+      {
+        "id": 1,
+        "name": "Pizza",
+        "price": 120,
+        "image": "https://media.istockphoto.com/id/482213153/photo/pizza.jpg?s=612x612&w=0&k=20&c=w7CSmN6olwvwfjOBUQDkVaApijp74LA3irvrIz2cErU="
+      },
+      {
+        "id": 2,
+        "name": "Burger",
+        "price": 59,
+        "image": "https://media.istockphoto.com/id/617364554/photo/hamburger-with-fries.jpg?s=612x612&w=0&k=20&c=t8fMIRewNFRU7YSMNWIx2axoyZNjsh0cxHM4vYMALf8="
+      },
+      {
+        "id": 3,
+        "name": "Samosa",
+        "price": 10,
+        "image": "https://media.istockphoto.com/id/182033089/photo/beef-samosa.jpg?s=612x612&w=0&k=20&c=xBOL3xxulqBIpNh6b8vZZPY9kad1NjQrj1X4LZtEeAI="
+      },
+      {
+        "id": 4,
+        "name": "kachori",
+        "price": 10,
+        "image": "https://aromaticessence.co/wp-content/uploads/2016/10/image1-1.jpeg"
+      }
+
+    ],
+    "medicine": [
+      {
+        "id": 1,
+        "name": "Aspirin",
+        "price": 5.99,
+        "image": "https://media.gettyimages.com/id/150791497/photo/germany-analgesic-aspirin-made-by-bayer-ag.jpg?s=612x612&w=0&k=20&c=T-oMmZ9HEDpddpJ0p7j7rq558LJGZV16dylKZhRJJ2Y="
+      },
+      {
+        "id": 2,
+        "name": "Cough Syrup",
+        "price": 7.49,
+        "image": "https://cpimg.tistatic.com/05006174/b/4/Ayurvedic-Cough-Syrup.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Ibuprofen",
+        "price": 10.99,
+        "image": "https://t3.ftcdn.net/jpg/01/27/02/48/360_F_127024874_I8aODtYV1ZY6yrPEHRbo3E2Sx6b2Z2jh.jpg"
+      }
+    ]
+  }
+  

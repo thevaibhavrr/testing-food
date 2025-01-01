@@ -1,0 +1,170 @@
+.category-page {
+  padding: 20px;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  min-height: 100vh;
+}
+
+.category-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: var(--text-secondary-color);
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-btn,
+.add-to-cart-btn,
+.remove-btn {
+  padding: 5px 10px;
+  margin: 0px 5px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+
+.quantity-btn:active,
+.add-to-cart-btn:active,
+.remove-btn:active {
+  transform: scale(0.95);
+}
+
+.quantity {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: bold;
+  text-align: center;
+  min-width: 20px;
+}
+
+.remove-btn {
+  background-color: #ff3d00;
+}
+
+.remove-btn:hover {
+  background-color: #d32f2f;
+}
+
+
+
+/* Add this to your existing CSS file (category.css) */
+
+.product-price {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.original-price {
+  font-size: 1rem;
+  color: var(--secondary-text-color); 
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.final-price {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.remove-btn-mini {
+  padding: 5px 10px;
+  margin: 0px 5px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #ff3d00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Add this to your existing CSS file (category.css) */
+
+.product-card.closed {
+  filter: grayscale(100%);
+  pointer-events: none; /* Prevent interaction with closed items */
+}
+
+.closed-message {
+  color: #999;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  bottom:10px;
+  right: -5%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #cb0000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+
+
+
+.product-card.closed {
+  filter: grayscale(100%);
+  pointer-events: none; /* Prevent interaction with closed items */
+}
+
+.closed-message {
+  color: #999;
+}
