@@ -23,7 +23,8 @@ export const makeApi = async (
       // url: `https://test.ritaz.in${endpoint}`, 
       // url: `https://sk-backend-uvv5.onrender.com${endpoint}`,
       // url: `https://new-food-backend-fdoa.onrender.com${endpoint}`,
-      url:"http://localhost:5008"+endpoint,
+      url: `https://blliv-food.onrender.com${endpoint}`,
+      // url:"http://localhost:5008"+endpoint,
       headers,
       data 
     };
